@@ -1,0 +1,500 @@
+body, p, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'poppins', sans-serif;
+	font-size: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+#topBarWrap {
+	background-color: #fff;
+	border-top: solid #282e40 23px;
+}
+#topBarLogo {
+	float: left;
+	padding-left: 100px;
+	width: 35%;
+}
+#topBarNav {
+	float: right;
+	padding-top: 20px;
+	padding-left: 30px;
+	width: 65%;
+	letter-spacing: 1px;
+}
+.mainNav, .mainNav li ul {
+	list-style-type: none;
+}
+.mainNav li {
+		float: left;
+		position: relative;
+}
+.mainNav li a, #formContainer #forma  #formElement .formLabel {
+	text-decoration: none;
+	display: block;
+	color: #3a3838;
+	padding: 15px 40px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+}
+.mainNav li a:hover {
+	color: #639ebe;
+}
+.mainNav li ul {
+	position: absolute;
+	top: 50px;
+	background-color: #ffffffcc;
+	display: none;
+	list-style-type: none;
+	padding-top: 10px;
+}
+.mainNav li:hover ul {
+	display: block;
+	z-index:2;
+}
+.mainNav li ul li a {
+	padding: 15px;
+	width: 200px;
+	margin-left: 25px;
+}
+#flexsliderWrap {
+	background-color: #fff;
+}
+#headerBox {
+	width: 40%;
+	float: left;
+	background-color: #282e40;
+	padding-left: 90px;
+	padding-top: 100px;
+	padding-bottom: 122px;
+}
+#headerBox h1 {
+	font-size: 50px;
+	line-height: 50px;
+	color: #5293b7;
+	font-weight: 400;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+}
+#headerBox h2 {
+	font-size: 65px;
+	line-height: 65px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding-bottom: 30px
+}
+#headerBox p {
+	font-size: 17px;
+	color: #fff;
+	font-weight: 300;
+	line-height: 28px;
+	font-family: 'poppins', sans-serif;
+	letter-spacing: 0.3px;
+	width: 430px;
+}
+#headerBox a {
+	display: block;
+	text-decoration: none;
+	font-size: 25px;
+	letter-spacing: 1px;
+	color: #12c6f4;
+	padding-top: 50px;
+	padding-right: 50px;
+	float: right;
+	letter-spacing: 1px;
+}
+#headerBox a:hover {
+	color: #fff;
+}
+.flexslider {
+	width: 60%;
+	float: right;
+}
+#section1Wrap {
+	background-color: #fff;
+	margin-top: 10px;
+}
+.section1Photo {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.section1Text {
+	width: 50%;
+	float: right;
+}
+.section1Text h1 {
+	font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    color: #282e40;
+    margin-top: 50px;
+    letter-spacing: 0.5px;
+}
+.section1Text p {
+	font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #333;
+    width: 500px;
+    margin-top: 30px;
+}
+.section1Text a {
+	
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	background: #282e40;
+	color: #fff;
+	width: 220px;
+	height: 65px;
+	line-height: 70px;
+	float: left;
+	margin-right: 0;
+	font-weight: 300;
+	margin-top: 50px;
+	letter-spacing: 0.3px;
+}
+.section1Text a:hover {
+	background: #5293b7;
+}
+#section2Wrap {
+	background-color: #282e40;
+}
+.section2Title {
+	width: 100%;
+	height: 30%;
+}
+.section2Title h1, #news h1 {
+	display: block;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 65px;
+	color: #fff;
+	margin-top: 23px;
+	padding-top: 50px;
+}
+/*Tabs css*/
+#tabs .ui-widget-header {
+    border: none;
+    background: #fff;
+}
+#tabs .ui-tabs-nav {
+ background-color: #282e40;
+ font-size: 20px;
+ margin: 0 0 0 17px;
+
+}
+#tabs .ui-tabs-nav li {
+	border: solid 2px #5293b7;
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+#tabs .ui-tabs-nav li a {
+	background-color: #282e40;
+	color: #fff;
+	letter-spacing: 0.4px;
+	font-weight: 500;
+}
+.tabsBox {
+	list-style-type: none;
+}
+.tabsBoxItem img {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+.boxLastItem {
+	margin-right: 0 !important;
+}
+#tabs-1, #tabs-2, #tabs-3, #tabs {
+	background-color: #282e40;
+	border: none;
+	color: #5293b7;
+}
+.tabsBoxItem2 {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	text-align: center;
+	margin-top: 15px;
+	padding-top: 5px;
+	background-color: #282e40;
+}
+.tabsBoxItem2 h1 {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+.tabsBoxItem2 p {
+	color: #12c6f4;
+	font-size: 18px;
+	padding-bottom: 20px;
+	letter-spacing: 0.2px;
+}
+.ui-tabs .ui-tabs-panel {
+	margin-bottom: 82px;
+}
+/*Istaknuti proizvod:*/
+#topProduct {
+	background-image: url("images/topProduct.jpg");
+	background-size: cover;
+
+	
+}
+.topProductBox {
+	width: 550px;
+	float: left;
+	margin-left: 100px; 
+}
+.topProductBox h1 {
+	font-size: 75px;
+	line-height: 60px;
+	color: #5293b7;
+	font-weight: 800;
+	padding-top:150px;
+}
+.topProductBox p {
+	font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.topProductBox a {
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	background: #282e40;
+	color: #fff;
+	width: 220px;
+	height: 65px;
+	line-height: 70px;
+	float: left;
+	margin-right: 0;
+	margin-bottom: 300px;
+	font-weight: 300;
+	letter-spacing: 0.3px;
+}
+.topProductBox a:hover {
+	background: #5293b7;
+}
+/*News 3 boxes*/
+#news {
+	background-color: #282e40;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+.newsSection {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+	text-align: center;
+	padding-top: 20px;
+}
+.newsSection h2 {
+	font-size: 22px;
+	color: #12c6f4;
+	font-weight: 200;
+	padding-top: 10px;
+}
+.newsSection p {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 100;
+	padding-top: 10px;
+}
+.newsSection a {
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	color: #5293b7;
+	float: right;
+	padding-top: 20px;
+	font-weight: 500;
+}
+.newsSection a:hover {
+	color: #fff;
+}
+/*Forma css*/
+#formWrap {
+	background-image: url('images/form.jpg');
+	background-size: cover;
+}
+#formWrap h1 {
+	float: right;
+	font-size: 45px;
+	font-weight: 500;
+	margin-right: 219px;
+	margin-top: 80px;
+}
+#formContainer {
+	float: right;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+#formElement input, #formElement #message, #formElement #opis {
+	border: none !important;
+    background: #282e40;
+    margin: 10px 0;
+    padding: 25px 25px;
+    border-radius: 0;
+    height: 75px;
+    color: #495057;
+    width: 568px;
+    font-size: 17px;
+    
+}#formElement input:focus, #formElement #message:focus, #formElement textarea #opis:focus {
+	outline: none;
+    background: #282e40;
+    margin: 10px 0;
+    padding: 25px 25px;
+    border-radius: 0;
+    height: 75px;
+    color: #495057;
+    width: 568px;
+    font-size: 17px;
+
+    
+}
+#formElement #message, #formElement #opis {
+	border: none !important;
+    background: #282e40;
+    margin: 10px 0;
+    padding: 25px 25px;
+    border-radius: 0;
+    min-height: 145px;
+    color: #495057;
+    width: 568px;
+    font-size: 17px;
+    font-family: inherit;
+    
+}
+#formElement #send, #formElement #spremi {
+	border: none !important;
+    background: #12c6f4;
+    margin: 20px 0;
+    padding: 25px 25px;
+    border-radius: 0;
+    height: 65px;
+    width: 220px;
+    font-size: 20px;
+   margin-bottom: 50px;
+}
+#formElement #send:hover, #formElement #spremi:hover {
+	background-color: #5293b7;
+	color: #fff;
+}
+/*Footer*/
+#footer {
+	background-color: #282e40;
+	margin: 70px 150px;
+}
+#footerSection {
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+	margin-bottom: 50px;
+}
+#footerSection h1 {
+	font-size: 30px;
+	color: #5293b7;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+#footerSection li {
+	font-size: 16px;
+	font-weight: 200;
+	color: #fff;
+	list-style-type: none;
+	padding-bottom: 15px;
+	line-height: 24px;
+}
+.footerSectionPosts p {
+	float: right;
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 200;
+	color: #fff;
+	list-style-type: none;
+	padding-bottom: 15px;
+}
+#footerSection li a {
+	font-size: 16px;
+	font-weight: 200;
+	color: #fff;
+	list-style-type: none;
+	text-decoration: none;
+	line-height: 18px;
+}
+#footerSection li a:hover {
+	font-size: 16px;
+	font-weight: 200;
+	color: #0056b3;
+	list-style-type: none;
+	line-height: 18px;
+}
+#footerSection #send, #footerSection #send:hover {
+	border: none !important;
+    background: #12c6f4;
+    padding: 17px 14px;
+    border-radius: 0;
+    height: 48px;
+    width: 95px;
+    font-size: 15px;
+   text-align: center;
+   margin: 0;
+}
+#footerSection #email {
+	border: none !important;
+    background: #fff;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 0;
+    height: 48px;
+    color: #495057;
+    width: 100%;
+    font-size: 14px;
+}
+#footerBanner {
+	display: inline-block;
+	width: 100%;
+	float: left;
+	background-color: #046882;
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	text-align: center;
+	padding: 10px 0;
+}/*Uredi vijest forma*/
+#newsEditWrap {
+	background-image: url('images/form.jpg');
+	background-size: cover;
+}
+#newsEditWrap h1 {
+	float: right;
+	font-size: 45px;
+	font-weight: 500;
+	margin-right: 219px;
+	margin-top: 80px;
+}
+#newsEditContainer {
+	width: 40%;
+	float: left;
+	background-color: #282e40;
+	padding-left: 90px;
+	padding-top: 100px;
+	padding-bottom: 122px;
+
+}

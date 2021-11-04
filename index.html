@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ljetni zadatak</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="flexslider/jquery.flexslider.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>var $j = jQuery.noConflict(true);</script>
+    <script>
+      $(document).ready(function(){
+       console.log($().jquery); // This prints v1.6.2
+       console.log($j().jquery); // This prints v1.12.1
+      });
+   </script>
+<script type="text/javascript" charset="utf-8">
+  		$(window).load(function() {
+    	$(".flexslider").flexslider();
+  	});
+</script>
+  <script type="text/javascript">
+$( document ).ready(function() {
+    $j( "#tabs" ).tabs({
+      event: "mouseover"
+    });
+});
+	</script>
+
+</head>
+<body>
+    <div id="topBarWrap">
+    		<div id="topBarLogo">
+    			<img style="background-size: cover;" src="images/logo.png">
+    		</div>
+    		<div id="topBarNav">
+    			<ul class="mainNav">
+    				<li><a href="#">Home</a></li>
+    				<li><a href="#">About Us</a></li>
+    				<li><a href="#">Fruits</a>
+    						<ul>
+    							<li><a href="#">Apples</a></li>
+    							<li><a href="#">Black Grapes</a></li>
+    							<li><a href="#">Pineapples</a></li>
+    							<li><a href="#">Bananas</a></li>
+    							<li><a href="#">Lemons</a></li>
+    							<li><a href="#">Berries</a></li>
+    						</ul>
+    				</li>
+    				<li><a href="#">News</a></li>
+    				<li><a href="#">Contact Us</a></li>
+    			</ul>
+    		</div>
+    		<div style="clear: both;"></div>
+    </div> <!-- end #topBarWrap -->
+    <div id="flexsliderWrap">
+    	<div id="headerBox">
+    		<h1>Best</h1>
+    		<h2>Fresh Fruits</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labord do eiusmod</p>
+    		<a href="#">Buy Now</a>
+    	</div>
+    	<div class="flexslider">
+  			<ul class="slides">
+   				<li><img src="images/apples.jpg" /></li>
+   				<li><img src="images/blackGrapes.jpg" /></li>
+    			<li><img src="images/pineapples.jpg" /></li>
+    			<li><img src="images/bananas.jpg" /></li>
+    			<li><img src="images/lemons.jpg" /></li>
+    			<li><img src="images/berries.jpg" /></li>
+  			</ul>
+		</div>
+		<div style="clear: both;"></div>
+    </div> <!-- end #flexsliderWrap -->
+    <div id="section1Wrap">
+    	<div class="section1Photo">
+    		<img src="images/aboutUs.png">
+    	</div>
+    	<div class="section1Text">
+    		<h1>About our shop</h1>
+    		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    		<a href="#">Read More</a>
+    	</div>
+    	<div style="clear: both;"></div>
+    </div> <!-- end #section1Wrap -->
+     <div id="section2Wrap">
+     	<div class="section2Title">
+    		<h1>Our Fruits</h1>
+    	</div>
+    	<!-- počinje #tabs -->
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Best Sellers</a></li>
+    <li><a href="#tabs-2">Yellow Fruit</a></li>
+    <li><a href="#tabs-3">Berries</a></li>
+  </ul>
+    <div id="tabs-1">
+      <ul class="tabsBox">
+       <li class="tabsBoxItem"><img src="images/redApple.jpg"></li>
+        <li class="tabsBoxItem"><img src="images/greenApple.jpg"></li>
+        <li class="tabsBoxItem"><img class="boxLastItem" src="images/blackGrapes2.jpg"></li>
+      </ul>
+       <div style="clear: both;"></div>
+      <ul class="tabsBox">
+        <li class="tabsBoxItem2"><h1>Red Apples</h1><p>Fresh Fruit</p></li>
+        <li class="tabsBoxItem2"><h1>Green Apples</h1><p>Fresh Fruit</p></li>
+        <li class="tabsBoxItem2 boxLastItem"><h1>Black Grapes</h1><p>Fresh Fruit</p></li>
+      </ul>
+    </div>
+    <div id="tabs-2">
+      <ul class="tabsBox">
+        <li class="tabsBoxItem"><img src="images/pineapple.jpg"></li>
+        <li class="tabsBoxItem"><img src="images/banana1.jpg"></li>
+        <li class="tabsBoxItem"><img class="boxLastItem" src="images/lemon2.jpg"></li>
+      </ul>
+        <div style="clear: both;"></div>
+      <ul class="tabsBox">
+        <li class="tabsBoxItem2"><h1>Pineapples</h1><p>Fresh Fruit</p></li>
+        <li class="tabsBoxItem2"><h1>Bananas</h1><p>Fresh Fruit</p></li>
+        <li class="tabsBoxItem2 boxLastItem"><h1>Lemons</h1><p>Fresh Fruit</p></li>
+      </ul>
+    </div>
+    <div id="tabs-3" >
+      <ul class="tabsBox">
+        <li class="tabsBoxItem"><img src="images/strawberries.jpg"></li>
+        <li class="tabsBoxItem"><img src="images/blueberries.jpg"></li>
+        <li class="tabsBoxItem"><img class="boxLastItem"
+        src="images/raspberries.jpg"></li>
+      </ul>
+        <div style="clear: both;"></div>
+      <ul class="tabsBox">
+        <li class="tabsBoxItem2"><h1>Strawberries</h1><p>Fresh Fruit</p></li>
+        <li class="tabsBoxItem2"><h1>Blueberries</h1><p>Fresh Fruit</p></li>
+        <li class="tabsBoxItem2 boxLastItem"><h1>Raspberries</h1><p>Fresh Fruit</p></li>
+      </ul>
+    </div> 
+      <div style="clear: both;"></div>
+</div> <!-- end #tabs -->
+<div id="topProduct">
+  <div class="topProductBox">
+    <h1>Fresh Lemon</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing el sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure doloreprehenderin</p>
+    <a href="#">Read More</a>
+  </div>
+  <div style="clear: both;"></div>
+</div> <!-- end #topProduct -->
+<div id="news">
+  <h1>News</h1>
+  <div class="newsSection">
+    <img src="images/vijest1.jpg">
+    <h2>News 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+    <a href="">Read More</a>
+  </div>
+  <div class="newsSection">
+    <img src="images/vijest2.jpg">
+    <h2>News 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+    <a href="">Read More</a>
+  </div>
+  <div class="newsSection boxLastItem">
+    <img src="images/vijest3.jpg">
+    <h2>News 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniadolor..</p>
+    <a href="">Read More</a>
+  </div>
+  <div style="clear: both;"></div>
+</div> <!-- end #news-->
+<div id="formWrap">
+  <h1>Request a <span style="color: #12c6f4; font-weight: 800;">Call Back</span></h1>
+  <div style="clear: both;"></div>
+  <div id="formContainer">
+    <form id="forma" method="get" action="">
+      <div id="formElement"><input id="name" type="text" name="name" placeholder="Your Name"></div>
+     <div id="formElement"><input id="email" type="text" name="email" placeholder="Email"></div>
+      <div id="formElement"><input id="phone" type="text" name="phone" placeholder="Phone"></div>
+      <div id="formElement"><textarea id="message" name="message" placeholder="Message"></textarea></div>
+      <div id="formElement"><input type="submit" name="send" id="send" value="Send"></div>
+    </form>
+  </div>
+  <div style="clear: both;"></div>
+</div> <!-- end #formWrap-->
+<div id="footer">
+  <div id="footerSection">
+    <h1>Contact Us</h1>
+    <ul>
+      <li><p>Healing Center, 176 W Street name, New York, NY</p></li>
+      <li><p>(+91) 987 654 3210</p></li>
+      <li><p>demo@gmail.com</p></li>
+    </ul>
+  </div>
+  <div id="footerSection">
+    <h1>Pages</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Fruits</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  <div id="footerSection">
+    <h1>Recent Post</h1>
+    <ul class="footerSectionPosts">
+      <li><img src="images/footer1.png"><p>consectetur adipisc elit,<br>
+      sed do eiusmod</p></li>
+      <li><img src="images/footer2.png"><p>consectetur adipisc elit,<br>
+      sed do eiusmod</p></li>
+      <li><img src="images/footer3.png"><p>consectetur adipisc elit,<br>
+      sed do eiusmod</p></li>
+    </ul>
+  </div>
+  <div id="footerSection" class="boxLastItem">
+    <h1>Newsletter</h1>
+    <form>
+      <div id="formElement"><input id="email" type="text" name="email" placeholder="Enter Your Email"></div>
+      <div id="formElement"><input type="submit" name="send" id="send" value="Subscribe"></div>
+    </form>
+  </div>
+  </div> <!-- end #footer-->
+  <div style="clear: both;"></div>
+  <div id="footerBanner">
+    <p>Edunova W29 August 2021</p>
+  </div>
+  <div style="clear: both;"></div>
+</body>
+</html>
